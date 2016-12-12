@@ -1,0 +1,113 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  color: white;max-width: 590px;
+}
+
+h2 {
+  font-family: 'Athelas', serif;
+  color: #cd9f6c;
+  font-size: 34px;
+  max-width: 330px;
+  padding: 30px;
+  font-weight: 100;
+}
+
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin: 50px 0;
+  line-height: 1.5em;
+}
+
+section.eh-two-up {
+  background-color: #50503a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.eh-half-col {
+  flex: 1;
+}
+
+a.eh-btn {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 28px;
+  margin-top: 55px;
+
+  transition: all .3s ease-in-out;
+}
+
+a.eh-btn:hover {
+  background-color: white;
+  color: #50503a;
+  cursor: pointer;
+}
+
+section.eh-header {
+  background-image: url('images/eh_hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 150px 10%;
+  border-top: 10px solid #cd9f6c;
+}
+
+.eh-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #cd9f6c;
+  display: flex;
+  padding: 0 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i {
+  font-size: 40px;
+  color: white;
+}
+
+footer p {
+  color: #505039;
+  font-size: 18px;
+}
+
+img.eh-logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  width: 150px;
+}
+
+
